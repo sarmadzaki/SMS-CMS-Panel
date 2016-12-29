@@ -337,7 +337,7 @@
           </a>
           <ul class="treeview-menu">
             <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard</a></li>
-            <li><a href="dailyattendence.php"><i class="fa fa-circle-o"></i> Daily Attendence</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Daily Attendence</a></li>
           </ul>
         </li>
         <li class="treeview">
