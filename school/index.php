@@ -350,9 +350,10 @@
           </a>
           <ul class="treeview-menu">
             
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>Registered</a></li>
-            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>New Admission</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i>Student's Activities</a></li>
+            <li><a href="registerstd.php"><i class="fa fa-circle-o"></i>Registered</a></li>
+            <li><a href="newadmission.php"><i class="fa fa-circle-o"></i>New Admission</a></li>
+            <li><a href="studentsinfo.php"><i class="fa fa-circle-o"></i>Student's information</a></li>
+
           </ul>
        
 
@@ -367,9 +368,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-male"></i> Male Teacehers</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-female"></i>Female Teachers</a></li>
-            <li><a href="pages/UI/buttons.html"><i class="fa fa-male"></i>On Trial</a></li>
+            <li><a href="maleteacher.php"><i class="fa fa-male"></i> Male Teacehers</a></li>
+            <li><a href="femaleteacher.php"><i class="fa fa-female"></i>Female Teachers</a></li>
+            <li><a href="ontrial.php"><i class="fa fa-male"></i>On Trial</a></li>
          
           </ul>
         </li>
@@ -378,7 +379,7 @@
 
                                      <!-- Fee Collection -->
         <li>
-          <a href="pages/mailbox/mailbox.html">
+          <a href="fee.php">
             <i class="fa fa-money"></i> <span>Fees Collection</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-yellow">12</small>
@@ -391,7 +392,7 @@
 
         </li>
         <li>
-          <a href="pages/widgets.html">
+          <a href="parent.php">
             <i class="fa fa-user"></i> <span>Parents</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -410,7 +411,7 @@
         </li> -->
 
         <li class="treaview">
-          <a href="#">
+          <a href="classes.php">
             <i class="fa fa-sitemap"></i><span>Classes</span>
             <span class="pull-right-container">
               
@@ -420,7 +421,7 @@
 
 
          <li class="treaview">
-          <a href="#">
+          <a href="exams.php">
             <i class="fa fa-graduation-cap"></i><span>Exams</span>
             <span class="pull-right-container">
               
@@ -429,7 +430,7 @@
         </li>
 
          <li class="treaview">
-          <a href="#">
+          <a href="library.php">
             <i class="fa fa-book"></i><span>Library</span>
             <span class="pull-right-container">
               
@@ -438,7 +439,7 @@
         </li>
 
           <li class="treaview">
-          <a href="#">
+          <a href="notice.php">
             <i class="fa fa-file"></i><span>Noticeboard</span>
             <span class="pull-right-container">
               
@@ -447,7 +448,7 @@
         </li>
 
           <li class="treaview">
-          <a href="#">
+          <a href="result.php">
             <i class="fa fa-credit-card"></i><span>Results</span>
             <span class="pull-right-container">
               
