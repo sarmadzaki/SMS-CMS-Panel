@@ -563,12 +563,14 @@ echo "<h3>$students_num</h3>";
       <!-- /.row -->
       <!-- Main row -->
 
+      <h2 class=""><span><i class="fa fa-arrow-circle-right"> &nbsp </i></span>Add Student</h2>
+
       <div class="col-md-12">
     <div class="panel panel-primary" data-collapsed="0">
           <div class="panel-heading">
               <div class="panel-title">
                 <i class="entypo-plus-circled"></i>
-          Addmission Form             </div>
+          Admission Form             </div>
             </div>
       <div class="panel-body">
         
@@ -682,9 +684,9 @@ echo "<h3>$students_num</h3>";
             <div class="col-sm-5">
               <select name="dormitory_id" class="form-control selectboxit">
                               <option value="">Select</option>
-                                                                  <option value="1">Lamar Talley</option>
-                                                                <option value="2">Mollie Potter</option>
-                                                        </select>
+                             <option value="1">Lamar Talley</option>
+                              <option value="2">Mollie Potter</option>
+                                     </select>
             </div> 
           </div>
 
@@ -693,10 +695,10 @@ echo "<h3>$students_num</h3>";
                         
             <div class="col-sm-5">
               <select name="transport_id" class="form-control selectboxit">
-                              <option value="">Select</option>
-                                                                  <option value="1">Wyoming Jackson</option>
-                                                                <option value="2">Gemma Orr</option>
-                                                        </select>
+                 <option value="">Select</option>
+               <option value="1">Wyoming Jackson</option>
+                <option value="2">Gemma Orr</option>
+                         </select>
             </div> 
           </div>
   
@@ -708,14 +710,14 @@ echo "<h3>$students_num</h3>";
                 <div class="fileinput-new thumbnail" style="width: 100px; height: 100px;" data-trigger="fileinput">
                   <img src="http://placehold.it/200x200" alt="...">
                 </div>
-                <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 10px;"></div>
+               <!--  <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 10px;"></div> -->
                 <div>
                   <span class="btn btn-white btn-file">
-                    <span class="fileinput-new">Select image</span>
-                    <span class="fileinput-exists">Change</span>
+                    <span class="fileinput-new btn btn-default" >Select image</span>
+                    <span class="fileinput-exists btn btn-primary">Change</span>
                     <input type="file" name="userfile" accept="image/*">
                   </span>
-                  <a href="#" class="btn btn-orange fileinput-exists" data-dismiss="fileinput">Remove</a>
+                  <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
                 </div>
               </div>
             </div>

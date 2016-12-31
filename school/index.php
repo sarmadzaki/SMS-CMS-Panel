@@ -352,7 +352,22 @@
             
             <li><a href="registerstd.php"><i class="fa fa-circle-o"></i>Registered</a></li>
             <li><a href="newadmission.php"><i class="fa fa-circle-o"></i>New Admission</a></li>
-            <li><a href="studentsinfo.php"><i class="fa fa-circle-o"></i>Student's information</a></li>
+            
+            <li class="treeview">
+          <a href="#">
+            <i class="fa fa-group"></i>
+            <span>Student Information</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#"><i class="fa fa-arrow-circle-right"></i> Class One</a></li>
+            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Class Two</a></li>
+            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Class Three</a></li>
+         
+          </ul>
+        </li>
 
           </ul>
        
